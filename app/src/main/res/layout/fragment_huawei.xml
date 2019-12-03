@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Huawei"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtxemthemhuawei"
+            android:background="@drawable/boder"
+            android:text="Xem Thêm"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/mauden"
+            android:layout_height="wrap_content"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/recyclerviewhuawei"
+            android:layout_below="@+id/txt1"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>

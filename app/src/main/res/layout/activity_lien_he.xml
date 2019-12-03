@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        app:title="Liên Hệ"
+        android:background="#3F51B5"
+        app:titleTextColor="#fff"
+        android:id="@+id/toolbarlienhe"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:text="LIên Hệ Với Chúng Tôi"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#F5EEEE"
+            android:textStyle="bold"
+            android:layout_height="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/lienhe"
+                android:layout_marginLeft="40dp"
+                android:layout_height="100dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20sp"
+                    android:src="@drawable/user_lienhe"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Họ Và Tên: Nguyễn Văn A"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/lienhe"
+                android:layout_marginLeft="40dp"
+                android:layout_height="100dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20sp"
+                    android:src="@drawable/email_lienhe"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Email: Thaibasang8@gmail.com"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/lienhe"
+                android:layout_marginLeft="40dp"
+                android:layout_height="100dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20sp"
+                    android:src="@drawable/call_lienhe"
+                    android:layout_height="60dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Điện Thoại: 0366426402"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
